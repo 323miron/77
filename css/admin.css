@@ -1,0 +1,159 @@
+/* Стили для заголовков */
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Стили для форм */
+  form {
+    margin-bottom: 2rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+  }
+  
+  input[type="submit"],
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Стили для таблицы */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 0.5rem;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Стили для блоков */
+  #addUser,
+  #editUser {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  #addUser {
+    background-color: #f2f2f2;
+  }
+  
+  #editUser {
+    background-color: #fff;
+  }
+  
+  /* Стили для кнопок */
+  #logout {
+    background-color: #f44336;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 2rem;
+  }
+  
+  #logout:hover {
+    background-color: #d32f2f;
+  }
+  
+  #deleteUser {
+    background-color: #f44336;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  #deleteUser:hover {
+    background-color: #d32f2f;
+  }
+
+  .control-panel {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 1rem;
+  }
+  
+  .control-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .control-list {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .control-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  .control-link {
+    display: block;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .control-link:hover {
+    background-color: #f2f2f2;
+  }
+
+  
+  
